@@ -11,7 +11,7 @@ public class MainController {
 
     private static final Logger LOGGER = LogManager.getLogger(MainController.class);
 
-    @GetMapping("/")
+    @GetMapping("/main")
     public ModelAndView index() {
 
         // 시스아웃은 이제 그만
@@ -23,7 +23,7 @@ public class MainController {
 
         ModelAndView mav = new ModelAndView();
 
-        mav.setViewName("view/main");
+        mav.setViewName("main");
 
         return mav;
     }
