@@ -1,4 +1,4 @@
-package com.heonil.givemethelotto;
+package com.heonil.givemethelotto.Main;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,10 +16,6 @@ public class MainController {
 
         // 시스아웃은 이제 그만
         // System.out.print("MainController");
-
-        LOGGER.info("콘솔 로그 확인");
-        LOGGER.debug("콘솔 로그 확인");
-        LOGGER.error("콘솔 로그 확인");
 
         ModelAndView mav = new ModelAndView();
 

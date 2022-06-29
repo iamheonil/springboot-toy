@@ -11,7 +11,13 @@ sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
+    jcenter()
 }
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web:2.6.7'
@@ -36,8 +42,4 @@ configurations {
         // 로그 사용을 위한 스타터팩 로깅 익스클루드 처리
         exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
     }
-}
-
-tasks.named('test') {
-    useJUnitPlatform()
 }
