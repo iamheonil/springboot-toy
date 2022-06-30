@@ -1,0 +1,17 @@
+@charset "UTF-8"
+
+/* ------------------------------ Main Visual ------------------------------ */
+
+.wrap {width: 100%}
+
+/* .mainVisual {background: url(/이미지/주소/넣어.png) center 0 / cover no-repeat;} */
+.headerVisual .visualArea {max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom : 82px;}
+.mainVisual .visualArea {max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom : 82px;}
+.footerVisual .visualArea {max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom : 82px;}
+
+
+.mainVisual .visualArea .item {display: inline-block; width: calc(50% - 3px); margin-right: 6px; border 1px solid #0050a9; border-radius: 10px; background: #fff; text-align: center;}
+.mainVisual .visualArea .item > a {display: inline-block; width: 100%; height: 100%; padding: 7px 0; color: #0050a9; font-size: 16px; font-weight: 500;}
+
+
+
