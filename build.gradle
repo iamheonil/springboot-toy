@@ -1,17 +1,16 @@
 plugins {
-    id 'org.springframework.boot' version '2.7.0'
+    id 'org.springframework.boot' version '2.4.1'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'war'
 }
 
 group = 'com.heonil'
-version = '0.0.1-SNAPSHOT'
+version = '0.1'
 sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
-    jcenter()
 }
 
 apply plugin: 'java'
@@ -20,12 +19,12 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.7'
-    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat:2.6.7'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.7'
+    implementation 'org.springframework.boot:spring-boot-starter-web:2.4.1'
+    providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat:2.4.1'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.4.1'
 
     // 타임리프
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.6.7'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0'
 
     // 로그

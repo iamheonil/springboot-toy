@@ -2,23 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      layout:decorate="~{layouts/defaultLayout}">
-<body>
-<!-- Content -->
-<div layout:fragment="content">
-    <div class="wrap">
-        <section class="mainVisual">
-            <div class="visualArea">
+      layout:decorate="~{layouts/defaultlayout}">
 
-                <h1>Content</h1>
+    <th:block layout:fragment="config" th:include="@{/fragments/config}"></th:block>
 
-                <li class="item">
-                    <a href="#">클릭</a>
-                </li>
+    <body>
 
-            </div>
-        </section>
-    </div>
-</div>
-</body>
+    <th:block layout:fragment="header" th:include="@{/fragments/header}"></th:block>
+
+    <!-- Content 선언 -->
+        <div layout:fragment="content" class="content">
+            <h1>Content</h1>
+
+            <li class="item">
+                <a href="#">클릭</a>
+            </li>
+        </div>
+    <!-- Content 끝 -->
+
+    <th:block layout:fragment="footer" th:include="@{/fragments/footer}"></th:block>
+
+    </body>
 </html>
