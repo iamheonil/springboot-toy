@@ -12,7 +12,12 @@ public class MainController {
 
     private static final Logger LOGGER = LogManager.getLogger(MainController.class);
 
-    @RequestMapping(value="/main", method = RequestMethod.GET)
+    @RequestMapping(value = "/")
+    public String indexRedirect() {
+        return "redirect:/main";
+    }
+
+    @RequestMapping(value = "/main", method = RequestMethod.GET)
     public ModelAndView index() {
 
         // 시스아웃은 이제 그만
