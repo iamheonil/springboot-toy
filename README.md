@@ -1,4 +1,4 @@
-# Give Me the Lotto
+# springboot-toyproject
 
 <!--
 //깃헙 레포 사용 언어 수
@@ -19,7 +19,7 @@ https://img.shields.io/github/commit-activity/w/beygee/survive
 https://img.shields.io/github/last-commit/beygee/survive
 -->
 
-
+<!--
 ### 프로젝트 기간 ????.??.?? ~
  
 ### 개발 기능 (예정)
@@ -35,6 +35,7 @@ https://img.shields.io/github/last-commit/beygee/survive
  - JAVA - Spring Boot
  - Oracle Database 11g
  - Apache Tomcat 9.0.35
+-->
 
 <!--
 ### 릴리즈 정보
