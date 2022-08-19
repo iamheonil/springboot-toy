@@ -23,6 +23,8 @@ public class MainController {
         // 시스아웃은 이제 그만
         // System.out.print("MainController");
 
+        LOGGER.error("로그 테스트!@#");
+
         ModelAndView mav = new ModelAndView();
 
         mav.setViewName("main");
