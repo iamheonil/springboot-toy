@@ -36,8 +36,11 @@ dependencies {
     implementation group: 'org.slf4j', name: 'jul-to-slf4j', version: '1.7.32'
 
     // 데이터베이스 관련
-    runtimeOnly 'com.oracle.database.jdbc:ojdbc8'
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.4'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:3.0.3'
+
+    // 롬복 설정
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 
 }
 
