@@ -1,4 +1,4 @@
-package com.heonil.givemethelotto.Main;
+package com.heonil.springtoy.Main;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

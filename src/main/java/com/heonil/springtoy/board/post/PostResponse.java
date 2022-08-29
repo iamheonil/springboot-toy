@@ -1,11 +1,9 @@
 package com.heonil.springtoy.board.post;
 
 import lombok.Getter;
-import lombok.Setter;
 
 @Getter
-@Setter
-public class PostRequest {
+public class PostResponse {
 
     private String userNo;
     private String userId;
